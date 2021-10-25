@@ -12,7 +12,7 @@ https://tiger0ym.github.io/WorksPageExample/
 - 右上ボタンから外部に飛べてしまう
 - 今は無理やり上からdivを重ねてボタンを押せなくしている
 ### videoタグで埋め込み
--　平和
+- 平和
 
 ## WebGLの埋め込み
 - iframeを使って埋め込んでいる
