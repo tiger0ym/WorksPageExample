@@ -1,0 +1,83 @@
+<html oncontextmenu="return false;">
+  <head>
+    <title>タイトル</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>タイトル</h1>
+      <!--(videoタグで埋め込み)-->
+      <!--
+        <video
+          class="video-content"
+          src="movie.mp4"
+          controls
+          preload="auto"
+          controlsList="nodownload"
+        ></video>
+      -->
+
+      <div class="iframe-wrapper">
+        <!--(YouTubeから動画の埋め込み)-->
+        <iframe
+          class="iframe-content"
+          src="https://www.youtube.com/embed/lqsZcKxRjlE?rel=0&modestbranding=1"
+          title="YouTube video player"
+          frameborder="0"
+          rel="0"
+          picture-in-picture
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen"
+          ;
+          allowfullscreen
+        ></iframe>
+
+        <!--(Google Driveから動画の埋め込み)-->
+        <!--
+        <iframe
+          class="iframe-content"
+          src="https://drive.google.com/file/d/1Ie1fb-MWv6RLuI5EZMu73U0KUDIiFqYq/preview"
+          frameborder="0"
+          scrolling="no"
+          seamless=""
+          allow="fullscreen"
+        ></iframe>
+        <div
+          style="
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            opacity: 0;
+            right: 0px;
+            top: 0px;
+          "
+        ></div>
+        -->
+
+        <!--(WebGLの埋め込み)-->
+        <!--
+          <iframe
+            class="iframe-content"
+            src=""
+            frameborder="0"
+            scrolling="no"
+            allow="fullscreen"
+          ></iframe>
+        -->
+      </div>
+      <p class="caption">
+        ここに文章を打ち込みます。<br />
+        ほげ <br />
+        ほげ
+      </p>
+    </div>
+
+    <!--
+        <video
+            src="movie.mp4"
+            controls
+            preload="auto"
+            controlsList="nodownload"
+        ></video>
+        -->
+  </body>
+</html>
