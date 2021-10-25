@@ -16,3 +16,9 @@ https://tiger0ym.github.io/WorksPageExample/
 
 ## WebGLの埋め込み
 - iframeを使って埋め込んでいる
+
+
+##　その他
+- 右クリック防止，videoタグにおいて動画のダウンロード不可など
+- スマホでは横幅100%,PCでは60%
+- スタイリングは最低限
