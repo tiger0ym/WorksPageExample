@@ -10,7 +10,7 @@ https://tiger0ym.github.io/WorksPageExample/
 - よって外部に飛べてしまう
 ### Google Driveからの埋め込み
 - 右上ボタンから外部に飛べてしまう
--　今は無理やり上からdivを重ねてボタンを押せなくしている
+- 今は無理やり上からdivを重ねてボタンを押せなくしている
 ### videoタグで埋め込み
 -　平和
 
@@ -18,7 +18,7 @@ https://tiger0ym.github.io/WorksPageExample/
 - iframeを使って埋め込んでいる
 
 
-##　その他
+## その他
 - 右クリック防止，videoタグにおいて動画のダウンロード不可など
 - 画面サイズによって横幅を調整(スマホでは100%,PCでは60%)
 - スタイリングは最低限
